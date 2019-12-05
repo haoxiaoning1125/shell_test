@@ -41,8 +41,17 @@ do
     done
     echo
 done
+echo "-----------------------"
 
-
+# break
+for ((i=1; i<=9; i++))
+do
+    if [ $i -lt 6 ];then
+        echo "$i"
+    else
+        break
+    fi
+done
 
 
 
